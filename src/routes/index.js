@@ -11,10 +11,12 @@ export default function Routes(){
             <Stack.Screen
                 name="Welcome"
                 component={Welcome}
+                options={{ headerShown: false }}
             ></Stack.Screen>
             <Stack.Screen
                 name="Signin"
                 component={Signin}
+                options={{ headerShown: false }}
             ></Stack.Screen>
         </Stack.Navigator>
     );

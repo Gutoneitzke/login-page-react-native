@@ -1,10 +1,20 @@
 import React from 'react';
-import { View, Text } from 'react-native';
+import { 
+  View, 
+  Text,
+  StyleSheet
+} from 'react-native';
 
 export default function Welcome() {
  return (
-    <View>
-        <Text>welcome</Text>
+    <View style={styles.container}>
+        
     </View>
   );
 }
+
+const styles = StyleSheet.create({
+  container: {
+
+  }
+})
